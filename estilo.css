@@ -1,0 +1,168 @@
+.search{
+	float: right;
+}
+
+.menu-busca{
+	padding: 30px;
+	padding-right: 120px;
+}
+
+.menu a{
+	color: white;
+}
+
+.menu{
+	background:#4CCFC1;
+}
+
+.menu li{/*Não funciona*/
+	font-weight: bold;
+	border-color: black;
+	border-width: 1px;
+	border-right-width: 5px;
+}
+
+.dinheiro{
+	font-weight: bold;
+	font-size: 25px;
+	color: #6a7a74;
+}
+
+
+.info{
+	background-image: url('images/slider_bg.jpg');
+	height: 435px;
+	width: 100%;
+}
+.carousel{
+	float: left;
+	display: block;
+	margin: 50px;
+}
+
+.carousel-indicators li{
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+}
+
+.bem-vindo{
+	padding: 50px;
+}
+.bem-vindo p, h1{
+	color: white;
+}
+.btn-info{
+	border-radius: 0%;
+	border-color: white;
+	border-width: 2px;
+	background-color: #4CCFC1;
+	padding: 1em 3em;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.produtosGeral{
+	padding: 20px;
+	margin: 20px 100px;
+}
+.produtosGeral img{
+	height: 100px;
+	width: auto;
+}
+.produtos button{
+	border-radius: 0%;
+	padding: 0.5em 1.8em;
+	background-color: #59bf95;
+	border:none;
+}
+.produtos span{
+	font-weight: bold;
+	font-size: 25px;
+	color: #6a7a74;
+}
+
+.produtos {
+	display: inline-block;
+}
+.produtos img{
+	height: 100px;
+	width: auto;
+}
+
+.destaqueTitulo{
+	background-color: #188d76;
+	color: white;
+	padding: 20px;
+}
+.destaqueTitulo h1{
+	font-size: 1.5em;
+}
+.destGeral{
+	padding: 30px;
+}
+.destaqueProduto{
+	display: inline-block;
+	border-style: solid;
+}
+
+.rodape{
+	background:#40C4B2;
+}
+
+.rodape th{
+	padding-left: 5px;
+	font-size: 1.2em;
+}
+.rodape td{
+	padding:5px;
+}
+
+.rodape tr{
+	color: white;
+}
+
+.rodape2{
+	background:#2DA89B;
+	padding: 15px;
+	text-align: center;
+	color: white;
+}
+
+.conteudo{
+	padding: 10px 50px;
+}
+
+/*Especifico Contado*/
+.local h1{
+	color: #6a7a74;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.contato button{
+	border-radius: 0%;
+	padding: 0.5em 1.8em;
+	background-color: #59bf95;
+	border:none;
+}
+
+/*Especifico Loja*/
+.mini{
+	display: inline-block;
+}
+.grande img{
+	height: 500px;
+	width: auto;
+}
+.rede-social{
+	background-color: #6a7a74;
+	border-radius: 100%;
+	padding: 0.5em;
+}
+
+
+
+.alterna{
+	background-color: #4CCFC1;
+	color: white;
+}

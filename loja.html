@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chiquinha Store</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-light menu-busca">
+		<a href="index.html">
+			<img src="images/logo.png">
+		</a>
+
+		<form>
+			<input type="text" class="search" size="50">
+		</form>
+
+		<span>
+			<img src="images/cart.png">
+			<span class="dinheiro">R$ 350,00</span>
+		</span>
+
+	</nav>
+
+	<nav class="navbar navbar-default menu">
+
+		<div>
+			<ul class="nav">
+
+				<li class="nav-item">
+					<a href="index.html" class="nav-link">Início</a>		
+				</li>
+
+				<li class="nav-item">
+					<a href="#" class="nav-link">Loja</a>			
+				</li>
+
+				<li class="nav-item">
+					<a href="contato.html" class="nav-link active">Contato</a>			
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<article>
+		<div class="row">
+			<div class="mini col-md-1">
+				<img src="images/small/0001-2.jpg"><br>
+				<img src="images/small/0001-1.jpg"><br>
+				<img src="images/small/0001-5.jpg"><br>
+				<img src="images/small/0001-3.jpg"><br>
+			</div>
+
+			<div class="grande col-md-4">
+				<img src="images/0001-2.jpg">
+			</div>
+
+			<div class="col-md-4">
+				<h2>CAMISA AZUL</h2>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when look at its layout.</p>
+				<span>39,90</span><br>
+				OPÇÕES:<br>
+				<form>
+					<label for="cor">Cor:</label> 
+					<select id="cor">
+						<option>Azul</option>
+						<option>Preta</option>
+					</select>
+					<label for="tamanho">Tamanho</label>
+					<select id="tamanho">
+						<option>P</option>
+						<option>M</option>
+						<option>G</option>
+					</select>
+					<label for="quantidade">QTD:</label>
+					<select id="quantidade">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+				</form><br>
+				<button type="button" class="btn btn-secondary">Comprar</button><br>
+				<p>COMPARTILHAR:</p>
+				<span class="rede-social">
+					<img src="images/facebook.png">
+				</span>
+				<span class="rede-social">
+					<img src="images/twitter.png">
+				</span>
+			</div>
+
+			<div class="tops col-md-3">
+				<table class="table">
+					<tr class="alterna">
+						<th>MAIS VENDIDOS</th>
+					</tr>
+					<tr>
+						<td>Camisa Polo</td>
+					</tr>
+					<tr>
+						<td>Camisa do Brasil</td>
+					</tr>
+					<tr>
+						<td>Camisa Fé</td>
+					</tr>
+					<tr class="alterna">
+						<td>
+							<img src="images/icon3.png"><br>
+							FRETE GRÁTIS<br>
+							EM COMPRAS ACIMA DE R$99,00<br>
+							Oferta válida para todo o nosso estoque
+						</td>
+					</tr>
+				</table>
+
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-9">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+			</div>
+			
+		</div>
+	</article>
+	
+
+	<footer class="rodape">
+		<table class="table table-borderless tabela ">
+			<tr>
+				<th>DESTAQUES</th>
+				<th>HOMENS</th>
+				<th>MULHERES</th>
+				<th>LINKS RAPIDOS</th>
+			</tr>
+			<tr>
+				<td>Produto A</td>
+				<td>Produto A</td>
+				<td>Produto A</td>
+				<td>Produto A</td>
+			</tr>
+			<tr>
+				<td>Produto B</td>
+				<td>Produto B</td>
+				<td>Produto B</td>
+				<td>Produto B</td>
+			</tr>
+			<tr>
+				<td>Produto C</td>
+				<td>Produto C</td>
+				<td>Produto C</td>
+				<td>Produto C</td>
+			</tr>
+			<tr>
+				<td>Produto D</td>
+				<td>Produto D</td>
+				<td>Produto D</td>
+				<td>Produto D</td>
+			</tr>
+		</table>
+	
+
+		<div class="rodape2">
+			<span><p> &copy; Todos os Direitos Reservados | Loja Virtual da Chiquinha</p></span>
+		</div>
+	</footer>
+
+<!--Javascript-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--Javascript-->
+</body>
+
+</html>
